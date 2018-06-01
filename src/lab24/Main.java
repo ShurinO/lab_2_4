@@ -1,8 +1,10 @@
 package lab24;
 
+import task.Calculation;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        Calculation.calc();
     }
 }
