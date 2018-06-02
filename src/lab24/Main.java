@@ -1,8 +1,6 @@
 package lab24;
 
-import task.Calculation;
-import task.Employee;
-import task.MyMath;
+import task.*;
 
 public class Main {
 
@@ -18,5 +16,9 @@ public class Main {
         Employee e3 = new Employee("Ivan", "Ivanov", "engineer", "123");
         e1 = new Employee();
         System.out.println(Employee.getNumberOfEmployees());
+
+        System.out.println(MyCalc.calcPi(150000));
+
+        System.out.println(GravityCalculator.calcDist(10));
     }
 }
